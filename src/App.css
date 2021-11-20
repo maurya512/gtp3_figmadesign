@@ -1,0 +1,12 @@
+/* general styling for the app */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* can describe the color by accessing them using variables declared in other style files */
+body {
+  background: var(--color-bg);
+}
