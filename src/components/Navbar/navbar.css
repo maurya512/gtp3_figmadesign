@@ -58,9 +58,9 @@
   font-size: 18px;
   line-height: 25px;
   border-radius: 5px;
-  border: 0;
   outline: none;
   cursor: pointer;
+  border: none;
 }
 
 .gpt3__navbar-menu {
