@@ -48,15 +48,32 @@
   font-weight: 800;
   font-size: 34px;
   line-height: 45px;
+
+  margin: 1rem 0;
 }
 
 /* styling for the p tag */
 .gpt3__possibility-content p {
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 800;
   font-size: 16px;
   line-height: 30px;
 
   color: #81afdd;
+  margin-bottom: 2rem;
+}
+
+/* mobile responsiveness */
+@media screen and (max-width: 950px) {
+  .gpt3__possibility {
+    flex-direction: column;
+  }
+
+  .gpt3__possibility-image {
+    margin: 1rem 0;
+  }
+
+  .gpt3__possibility-content {
+    margin-top: 2rem;
+  }
 }
