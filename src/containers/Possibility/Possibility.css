@@ -42,5 +42,21 @@
 }
 
 /* styling for the h1 */
+.gpt3__possibility-content h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
 
 /* styling for the p tag */
+.gpt3__possibility-content p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #81afdd;
+}
