@@ -9,7 +9,7 @@ import { blog1, blog2, blog3, blog4, blog5 } from "./import";
 const Blogs = () => {
   return (
     // a div with class name and id so that it can be used to scroll up and down
-    <div className="gpt3__blog section'__padding" id="blog">
+    <div className="gpt3__blog section__padding" id="blog">
       <div className="gpt3__blog-heading">
         <h1 className="gradient__text">
           A lot is happening and we are blogging about it
